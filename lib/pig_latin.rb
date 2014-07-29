@@ -1,7 +1,7 @@
 require "pig_latin/version"
 
 module PigLatin
-  def self.translate(word)
+  def self.pigize_it(word)
     word = word.to_s.downcase
     if word.match(/\d/) || word.match(/\W/)
       :error
