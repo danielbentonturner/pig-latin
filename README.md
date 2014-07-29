@@ -1,6 +1,6 @@
 # PigLatin
 
-TODO: Write a gem description
+This gem takes a word and converts it using the rules of pig latin: http://en.wikipedia.org/wiki/Pig_Latin
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+PigLatin.pigize_it(word)
 
 ## Contributing
 
